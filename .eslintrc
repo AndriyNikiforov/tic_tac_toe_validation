@@ -1,0 +1,18 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 125
+      }
+    ],
+    "prefer-arrow-callback": "error",
+    "no-unused-expressions": 0
+  }
+}
